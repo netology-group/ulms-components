@@ -65,4 +65,12 @@ export class TextboxTool extends PositionableObject {
     this._canvas.setActiveObject(this.__object)
     this.__object.enterEditing()
   }
+
+  handleTextEditStartEvent () {
+    if (this.__object && this.__object.hiddenTextarea) {
+      this.__object.hiddenTextarea.style.width = '10px'
+      this.__object.hiddenTextarea.style.height = '10px'
+      this.__object.hiddenTextarea.style.fontSize = '10px'
+    }
+  }
 }
