@@ -27,7 +27,7 @@
   "dependencies": {
     "classnames-es": "^2.2.6",
     "d3-queue": "~3.0.7",
-    "fabric": "netology-group/fabric.js#feature/ULMS-509",
+    "fabric": "github:netology-group/fabric.js#feature/ULMS-509",
     "hammerjs": "~2.0.8",
     "react": "^16.12.0"
   },

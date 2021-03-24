@@ -4,7 +4,7 @@ import React from 'react'
 import cn from 'classnames-es'
 import Floater from 'react-floater'
 import Slider from 'rc-slider/lib/Slider'
-import { penToolModeEnum, toolEnum } from '@ulms/ui-drawing'
+import { penToolModeEnum, toolEnum } from '@ulms/ui-drawing/src/constants'
 
 import IconLine from './icons/icon-tool-line.svg'
 import IconMarker from './icons/icon-tool-marker.svg'

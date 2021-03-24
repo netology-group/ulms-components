@@ -3,7 +3,7 @@
 import React from 'react'
 import cn from 'classnames-es'
 import Floater from 'react-floater'
-import { shapeToolModeEnum, toolEnum } from '@ulms/ui-drawing'
+import { shapeToolModeEnum, toolEnum } from '@ulms/ui-drawing/src/constants'
 
 import { toCSSColor } from './utils'
 import { Shapes } from './shapes'

@@ -2,7 +2,7 @@ import React from 'react'
 import cn from 'classnames-es'
 import { cond } from 'ramda'
 import { Icons } from '@ulms/ui-icons'
-import { penToolModeEnum, shapeToolModeEnum, toolEnum } from '@ulms/ui-drawing'
+import { penToolModeEnum, shapeToolModeEnum, toolEnum } from '@ulms/ui-drawing/src/constants'
 
 import { GroupColor } from './group-color'
 import { GroupEraser } from './group-eraser'

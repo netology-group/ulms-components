@@ -11,6 +11,7 @@ import DynamicPattern from './tools/dynamic-pattern'
 // FIXME: fix cycle dep
 // eslint-disable-next-line import/no-cycle
 import EraserTool from './tools/eraser'
+import { penToolModeEnum, shapeToolModeEnum, toolEnum } from './constants'
 import './tools/optimized-pencil-brush'
 import PanTool from './tools/pan'
 import PenTool from './tools/pen'
@@ -29,30 +30,6 @@ import {
   triangle,
   triangleSolid,
 } from './tools/_shapes'
-
-export const toolEnum = {
-  ERASER: 'eraser',
-  PAN: 'pan',
-  PEN: 'pen',
-  SELECT: 'select',
-  SHAPE: 'shape',
-  TEXT: 'textbox',
-}
-
-export const penToolModeEnum = {
-  PENCIL: 'pencil',
-  MARKER: 'marker',
-  LINE: 'line',
-}
-
-export const shapeToolModeEnum = {
-  CIRCLE: 'circle',
-  CIRCLE_SOLID: 'circle-solid',
-  RECT: 'rect',
-  RECT_SOLID: 'rect-solid',
-  TRIANGLE: 'triangle',
-  TRIANGLE_SOLID: 'triangle-solid',
-}
 
 export const enhancedFields = [
   '_id',
